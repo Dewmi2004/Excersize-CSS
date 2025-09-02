@@ -39,24 +39,62 @@
             left: 0;
             padding: 20px;
             box-sizing: border-box;
+            font-size: large;
         }
         #dashbord #words {
             line-height: 2em;
         }
-
-        section {
-            margin-top: 10vh;
+        #monkysec{
+        margin-top: 10vh;
+            background-color: white;
             margin-left: 15vw;
             padding: 20px;
             box-sizing: border-box;
-            background-color: goldenrod;
+            min-height: calc(60vh - 10vh);
+            overflow-y: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #monkysec>div{
+            height: 300px;
+            width: 300px;
+            border: 5px solid black;
+            background-color: lightgray;
+
+        }
+        section {
+            margin-left: 15vw;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: white;
             min-height: calc(100vh - 10vh);
             overflow-y: auto;
+        }
+        #footer{
+            height: 40px;
+            width: 100%;
+            background-color: grey;
+            position: relative;
+           /*top: 0;*/
+           /* bottom: 0;*/
+           /* left: 0;*/
+           /* right: 0;*/
+           /* margin: auto;*/
+        }
+        #footer>div{
+            position: absolute;
+            top: 25%;
+            bottom: 25%;
+            left: 50%;
+            right: 0;
+            margin: auto;
+            font-weight: bolder;
+            font-size: larger;
         }
     </style>
 </head>
 <body>
-
+<main>
 <div id="homepage">
     <img src="assests/ijse.png" alt="ijse logo">
     <div id="homepagewords">
@@ -76,6 +114,17 @@
     </div>
 </div>
 
+    <section id="monkysec">
+        <div>
+            <video  poster="assests/pre%20book%20page%20loading%20animation.gif" width="300px" height="300px" ></video>
+        </div>
+        <div>
+            <video  poster="assests/pre%20book%20page%20loading%20animation.gif" width="300px" height="300px" ></video>
+        </div>
+        <div>
+            <video  poster="assests/pre%20book%20page%20loading%20animation.gif" width="300px" height="300px" ></video>
+        </div>
+    </section>
 <section>
     <div id="paras">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
@@ -131,8 +180,18 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
     </div>
-</section>
 
+</section>
+    <div id="footer"><div>developed by IJSE</div></div>
+</main>
 </body>
 </html>
